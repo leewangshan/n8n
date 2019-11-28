@@ -1,7 +1,5 @@
 # n8n-editor-ui
 
-![n8n.io - Workflow Automation](https://n8n.io/n8n-logo.png)
-
 The UI to create and update n8n workflows
 
 ```
@@ -50,5 +48,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## License
 
 [Apache 2.0 with Commons Clause](https://github.com/n8n-io/n8n/blob/master/packages/editor-ui/LICENSE.md)
-
-Additional information about license can be found in the [FAQ](https://docs.n8n.io/#/faq?id=license)

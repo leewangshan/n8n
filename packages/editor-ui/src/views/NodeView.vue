@@ -1032,8 +1032,8 @@ export default mixins(
 					PaintStyle: { strokeWidth: 2, stroke: '#334455' },
 					EndpointStyle: { radius: 9, fill: '#acd', stroke: 'red' },
 					// EndpointStyle: {},
-					HoverPaintStyle: { stroke: '#ff6d5a', lineWidth: 4 },
-					EndpointHoverStyle: { fill: '#ff6d5a', stroke: '#acd' },
+					HoverPaintStyle: { stroke: '#4cb7e6', lineWidth: 4 },
+					EndpointHoverStyle: { fill: '#4cb7e6', stroke: '#acd' },
 					ConnectionOverlays: [
 						[
 							'Arrow',
@@ -1911,13 +1911,12 @@ export default mixins(
 
 .zoom-menu {
 	position: fixed;
-	left: 70px;
+	left: 220px;
 	width: 200px;
 	bottom: 45px;
 	line-height: 25px;
 	z-index: 18;
 	color: #444;
-	padding-right: 5px;
 }
 
 .node-creator-button {

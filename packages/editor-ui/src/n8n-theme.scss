@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 	.el-dialog__headerbtn {
 		position: absolute;
 		top: 0;
-		right: -50px;
+		right: -40px;
 		color: #fff;
 		background-color: $--custom-table-background-main;
 		border-radius: 0 18px 18px 0;
@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 		font-size: 1.7em;
 		text-align: center;
 		line-height: 30px;
-		height: 50px;
-		width: 50px;
+		height: 40px;
+		width: 40px;
 		.el-dialog__close {
 			color: #fff;
 			font-weight: 400;
@@ -136,6 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 	.el-submenu__title {
 		color: $--color-primary;
 		font-size: 1.2em;
+    font-weight: 500;
 		.el-submenu__icon-arrow {
 			color: $--color-primary;
 			font-weight: 800;

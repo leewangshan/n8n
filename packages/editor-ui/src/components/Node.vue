@@ -369,7 +369,7 @@ export default mixins(nodeBase, workflowHelpers).extend({
 }
 
 .jtk-endpoint.dropHover {
-	border: 2px solid #ff2244;
+	border: 2px solid #4cb7e6;
 }
 
 .jtk-drag-selected .node-default {

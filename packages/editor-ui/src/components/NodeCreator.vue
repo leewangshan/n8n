@@ -63,16 +63,16 @@ export default Vue.extend({
 .close-button {
 	position: absolute;
 	top: 0;
-	left: -50px;
+	left: -40px;
 	color: #fff;
 	background-color: $--custom-header-background;
 	border-radius: 18px 0 0 18px;
 	z-index: 110;
 	font-size: 1.7em;
 	text-align: center;
-	line-height: 50px;
-	height: 50px;
-	width: 50px;
+	line-height: 40px;
+	height: 40px;
+	width: 40px;
 
 	.close-on-click {
 		color: #fff;
@@ -90,7 +90,7 @@ export default Vue.extend({
 	right: 0;
 	width: 350px;
 	height: calc(100% - 65px);
-	background-color: #fff4f1;
+	background-color: #c1e6f6;
 	z-index: 200;
 	color: #555;
 

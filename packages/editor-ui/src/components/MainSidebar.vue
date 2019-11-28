@@ -16,13 +16,13 @@
 				<el-menu-item index="logo" class="logo-item">
 					<el-tooltip placement="top" effect="light">
 						<div slot="content">
-							n8n.io - Currently installed version {{versionCli}}
+							ClickPaas - Currently installed version {{versionCli}}
 						</div>
 						<img src="/n8n-icon-small.png" class="icon" alt="n8n.io"/>
 
 					</el-tooltip>
 					<a href="https://n8n.io" class="logo-text" target="_blank" slot="title">
-						n8n.io
+            ClickPaas
 					</a>
 				</el-menu-item>
 
@@ -112,41 +112,7 @@
 					<font-awesome-icon icon="tasks"/>&nbsp;
 					<span slot="title" class="item-title-root">Executions</span>
 				</el-menu-item>
-
-				<el-submenu index="help" class="help-menu" title="Help">
-					<template slot="title">
-						<font-awesome-icon icon="question"/>&nbsp;
-						<span slot="title" class="item-title-root">Help</span>
-					</template>
-
-					<el-menu-item index="help-documentation">
-						<template slot="title">
-							<a href="https://docs.n8n.io" target="_blank">
-								<font-awesome-icon icon="book"/>
-								<span slot="title" class="item-title">Documentation</span>
-							</a>
-						</template>
-					</el-menu-item>
-					<el-menu-item index="help-forum">
-						<template slot="title">
-							<a href="https://community.n8n.io" target="_blank">
-								<font-awesome-icon icon="users"/>
-								<span slot="title" class="item-title">Forum</span>
-							</a>
-						</template>
-					</el-menu-item>
-					<el-menu-item index="help-examples">
-						<template slot="title">
-							<a href="https://n8n.io/workflows" target="_blank">
-								<font-awesome-icon icon="network-wired"/>
-								<span slot="title" class="item-title">Workflows</span>
-							</a>
-						</template>
-					</el-menu-item>
-				</el-submenu>
-
 			</el-menu>
-
 		</div>
 	</div>
 
@@ -498,7 +464,7 @@ a.logo-text {
 	width: 65px;
 
 	&.expanded {
-		width: 200px;
+		width: 218px;
 	}
 }
 

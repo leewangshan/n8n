@@ -180,7 +180,9 @@ export default mixins(
 	height: 65px;
 	line-height: 65px;
 }
-
+.el-submenu{
+  border-bottom: 1px solid #c1e6f6;
+}
 .el-submenu .el-submenu__title,
 .el-menu--horizontal>.el-menu-item,
 .el-menu.el-menu--horizontal {
@@ -265,7 +267,9 @@ export default mixins(
 
 .execution-icon.error,
 .workflow-not-saved {
-	color: #FF2244;
+	color: #4cb7e6;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .execution-icon.success {
