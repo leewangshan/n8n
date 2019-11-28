@@ -1104,7 +1104,6 @@ export default mixins(
 						info.connection.setConnector(['Straight']);
 					}
 
-					// Display the connection-delete button only on hover
 					let timer: NodeJS.Timeout | undefined;
 					info.connection.bind('mouseover', (connection: IConnection) => {
 						if (timer !== undefined) {
@@ -1874,7 +1873,7 @@ export default mixins(
 				}
 			});
 
-			this.startLoading();
+			// this.startLoading();
 
 			const loadPromises = [
 				this.loadActiveWorkflows(),

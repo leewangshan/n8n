@@ -222,7 +222,6 @@ export interface IWorkflowShortResponse {
 	updatedAt: number | string;
 }
 
-
 // Identical or almost identical to cli.Interfaces.ts
 
 export interface IActivationError {

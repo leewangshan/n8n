@@ -421,7 +421,7 @@ export default mixins(
 				const finishedExecutionsPromise = this.loadFinishedExecutions();
 				await Promise.all([activeExecutionsPromise, finishedExecutionsPromise]);
 			} catch (error) {
-				this.$showError(error, 'Problem loading', 'There was a problem loading the data:');
+				// this.$showError(error, 'Problem loading', 'There was a problem loading the data:');
 			}
 
 			this.isDataLoading = false;
